@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Salesforce Lightning url</description>
+      <initValue>'https://ap5.lightning.force.com/lightning/page/home'</initValue>
+      <name>Application_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>User id </description>
+      <initValue>'chiranjeevi.heggade@gmail.com'</initValue>
+      <name>Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>User Password</description>
+      <initValue>'Testing123'</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
