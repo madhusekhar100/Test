@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>91882f5e-ab4c-4991-a5a1-c9fb0564c0ee</dataFileGUID>
-   <dataSourceUrl>C:\Users\madhu.boya\Katalon Studio\Salesforce_LightningDemoV0.1\Project_TestData.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\haricharan.b.QUALITEST\Desktop\Qualitest\Project\Katalon\Salesforce_LightningDemoV0.1\Salesforce_LightningDemoV0.1\Project_TestData.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
