@@ -74,6 +74,7 @@ WebUI.sendKeys(findTestObject('Object Repository/LeadPage_WebElements/Email'), f
         5, 1))
 
 WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/LeadPage_WebElements/Save'))
 /*

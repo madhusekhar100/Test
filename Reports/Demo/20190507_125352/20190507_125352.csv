@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,Firefox 66.0,,2019-05-07 12:53:59,2019-05-07 12:54:36,36.952s,INCOMPLETE
+,,,,,,
+Test Cases/Project_Regression_Sprint2_Release1.O/Verify user can able to create a lead and convert to opportunity,Firefox 66.0,,2019-05-07 12:53:59,2019-05-07 12:54:36,36.739s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-05-07 12:53:59,2019-05-07 12:54:06,7.016s,PASSED
+navigateToUrl(Application_URL),Firefox 66.0,,2019-05-07 12:54:06,2019-05-07 12:54:10,3.319s,PASSED
+maximizeWindow(),Firefox 66.0,,2019-05-07 12:54:10,2019-05-07 12:54:10,0.028s,PASSED
+"waitForElementPresent(findTestObject(""LoginPage_WebElements/username""), 10)",Firefox 66.0,,2019-05-07 12:54:10,2019-05-07 12:54:10,0.047s,PASSED
+"click(findTestObject(""LoginPage_WebElements/username""))",Firefox 66.0,,2019-05-07 12:54:10,2019-05-07 12:54:10,0.242s,PASSED
+"sendKeys(findTestObject(""LoginPage_WebElements/username""), Username)",Firefox 66.0,,2019-05-07 12:54:10,2019-05-07 12:54:10,0.085s,PASSED
+"sendKeys(findTestObject(""Object Repository/LoginPage_WebElements/password""), Password)",Firefox 66.0,,2019-05-07 12:54:10,2019-05-07 12:54:10,0.037s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/LoginPage_WebElements/Login""), 10)",Firefox 66.0,,2019-05-07 12:54:10,2019-05-07 12:54:10,0.069s,PASSED
+"click(findTestObject(""Object Repository/LoginPage_WebElements/Login""))",Firefox 66.0,,2019-05-07 12:54:10,2019-05-07 12:54:11,1.238s,PASSED
+"println(""User logged in salesforce application successfully"")",Firefox 66.0,,2019-05-07 12:54:11,2019-05-07 12:54:11,0.002s,PASSED
+"println(""Creating the Lead "")",Firefox 66.0,,2019-05-07 12:54:11,2019-05-07 12:54:11,0.001s,PASSED
+Thread.sleep(5000),Firefox 66.0,,2019-05-07 12:54:11,2019-05-07 12:54:16,5.006s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/LeadPage_WebElements/Leads_HomeButton""), 50)",Firefox 66.0,,2019-05-07 12:54:16,2019-05-07 12:54:36,19.337s,FAILED
