@@ -76,7 +76,7 @@ WebUI.sendKeys(findTestObject('Object Repository/LeadPage_WebElements/Email'), f
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/LeadPage_WebElements/Save'))
-
+/*
 println('Lead Converting to Account And Opportunity')
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/LeadConversion_WebElements/ConvertIcon'), 20)
@@ -105,4 +105,4 @@ for (int i = 0; i <= 3; i++) {
 
 WebUI.click(findTestObject('Object Repository/LeadConversion_WebElements/Convert_Button'))
 
-println('Lead is successfully converted into Account and Opportunity')
+println('Lead is successfully converted into Account and Opportunity')*/
