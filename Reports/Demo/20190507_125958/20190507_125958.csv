@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,Firefox 66.0,,2019-05-07 13:00:03,2019-05-07 13:00:35,32.200s,PASSED
+,,,,,,
+Test Cases/Project_Regression_Sprint2_Release1.O/Verify user can able to create a lead and convert to opportunity,Firefox 66.0,,2019-05-07 13:00:03,2019-05-07 13:00:32,28.447s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-07 13:00:04,2019-05-07 13:00:09,5.436s,PASSED
+navigateToUrl(Application_URL),Firefox 66.0,,2019-05-07 13:00:09,2019-05-07 13:00:12,2.960s,PASSED
+maximizeWindow(),Firefox 66.0,,2019-05-07 13:00:12,2019-05-07 13:00:12,0.018s,PASSED
+"waitForElementPresent(findTestObject(""LoginPage_WebElements/username""), 10)",Firefox 66.0,,2019-05-07 13:00:12,2019-05-07 13:00:12,0.039s,PASSED
+"click(findTestObject(""LoginPage_WebElements/username""))",Firefox 66.0,,2019-05-07 13:00:12,2019-05-07 13:00:12,0.232s,PASSED
+"sendKeys(findTestObject(""LoginPage_WebElements/username""), Username)",Firefox 66.0,,2019-05-07 13:00:12,2019-05-07 13:00:13,0.082s,PASSED
+"sendKeys(findTestObject(""Object Repository/LoginPage_WebElements/password""), Password)",Firefox 66.0,,2019-05-07 13:00:13,2019-05-07 13:00:13,0.034s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/LoginPage_WebElements/Login""), 10)",Firefox 66.0,,2019-05-07 13:00:13,2019-05-07 13:00:13,0.041s,PASSED
+"click(findTestObject(""Object Repository/LoginPage_WebElements/Login""))",Firefox 66.0,,2019-05-07 13:00:13,2019-05-07 13:00:15,1.951s,PASSED
+"println(""User logged in salesforce application successfully"")",Firefox 66.0,,2019-05-07 13:00:15,2019-05-07 13:00:15,0.003s,PASSED
+"println(""Creating the Lead "")",Firefox 66.0,,2019-05-07 13:00:15,2019-05-07 13:00:15,0.000s,PASSED
+Thread.sleep(5000),Firefox 66.0,,2019-05-07 13:00:15,2019-05-07 13:00:20,5.005s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/LeadPage_WebElements/Leads_HomeButton""), 50)",Firefox 66.0,,2019-05-07 13:00:20,2019-05-07 13:00:20,0.024s,PASSED
+"click(findTestObject(""Object Repository/LeadPage_WebElements/Leads_HomeButton""))",Firefox 66.0,,2019-05-07 13:00:20,2019-05-07 13:00:20,0.247s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/LeadPage_WebElements/Lead_New Button""), 20)",Firefox 66.0,,2019-05-07 13:00:20,2019-05-07 13:00:22,1.794s,PASSED
+"click(findTestObject(""Object Repository/LeadPage_WebElements/Lead_New Button""))",Firefox 66.0,,2019-05-07 13:00:22,2019-05-07 13:00:22,0.430s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/LeadPage_WebElements/Salutation""), 20)",Firefox 66.0,,2019-05-07 13:00:22,2019-05-07 13:00:24,1.870s,PASSED
+"click(findTestObject(""Object Repository/LeadPage_WebElements/Salutation""))",Firefox 66.0,,2019-05-07 13:00:24,2019-05-07 13:00:24,0.403s,PASSED
+delay(2),Firefox 66.0,,2019-05-07 13:00:24,2019-05-07 13:00:26,2.031s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/LeadPage_WebElements/Salutation_Selection""), 20)",Firefox 66.0,,2019-05-07 13:00:26,2019-05-07 13:00:26,0.029s,PASSED
+"click(findTestObject(""Object Repository/LeadPage_WebElements/Salutation_Selection""))",Firefox 66.0,,2019-05-07 13:00:26,2019-05-07 13:00:27,0.259s,PASSED
+delay(1),Firefox 66.0,,2019-05-07 13:00:27,2019-05-07 13:00:28,1.005s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/LeadPage_WebElements/FirstName""), 5)",Firefox 66.0,,2019-05-07 13:00:28,2019-05-07 13:00:28,0.034s,PASSED
+"sendKeys(findTestObject(""LeadPage_WebElements/FirstName""), findTestData(""Project_TestDataSheet/TestData"").getValue(2, 1))",Firefox 66.0,,2019-05-07 13:00:28,2019-05-07 13:00:28,0.549s,PASSED
+"sendKeys(findTestObject(""Object Repository/LeadPage_WebElements/LastName""), findTestData(""Project_TestDataSheet/TestData"").getValue(3, 1))",Firefox 66.0,,2019-05-07 13:00:28,2019-05-07 13:00:28,0.109s,PASSED
+"scrollToElement(findTestObject(""Object Repository/LeadPage_WebElements/Company""), 10)",Firefox 66.0,,2019-05-07 13:00:28,2019-05-07 13:00:28,0.028s,PASSED
+"sendKeys(findTestObject(""Object Repository/LeadPage_WebElements/Company""), findTestData(""Project_TestDataSheet/TestData"").getValue(4, 1))",Firefox 66.0,,2019-05-07 13:00:28,2019-05-07 13:00:29,0.121s,PASSED
+"sendKeys(findTestObject(""Object Repository/LeadPage_WebElements/Email""), findTestData(""Project_TestDataSheet/TestData"").getValue(5, 1))",Firefox 66.0,,2019-05-07 13:00:29,2019-05-07 13:00:29,0.149s,PASSED
+delay(2),Firefox 66.0,,2019-05-07 13:00:29,2019-05-07 13:00:31,2.004s,PASSED
+delay(1),Firefox 66.0,,2019-05-07 13:00:31,2019-05-07 13:00:32,1.007s,PASSED
+"click(findTestObject(""Object Repository/LeadPage_WebElements/Save""))",Firefox 66.0,,2019-05-07 13:00:32,2019-05-07 13:00:32,0.272s,PASSED
